@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(208, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-box {
+    background-color: #12343b;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.title-box h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+}
+
+.wrapper {
+    background-color: #e1b382;
+    padding: 2em;
+    width: 100%; 
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 1.5em 3em rgba(0, 0, 0, 0.2);
+}
+
+#placement {
+    width: 100%;
+    border: 2px solid #c89666;
+    padding: 0.5em 1em;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.options {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    appearance: none;
+    width: 10em;
+    padding: 0.6em 1.2em;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background-color: #c89666;
+    border: none;
+    color: aliceblue;
+    background-image: url(arrow.png);
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+    background-position: 90% center; /* Adjust the background-position as needed */
+    outline: none;
+    border-radius: 0.3em;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select option {
+    background-color: #f5f0f0;
+    color: #4b25be;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.selected {
+    display: none;
+}
+
+.color-inp {
+    appearance: none;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.color-inp::-webkit-color-swatch {
+    border-radius: 0.3em;
+    border: 0.18em solid #12343b;
+}
+
+.color-inp::-moz-color-swatch {
+    border-radius: 0.3em;
+    border: 0.18em solid #12343b;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box button,
+.box a {
+    font-size: 1.2em;
+    padding: 1em 2em;
+    border-radius: 0.7em;
+    margin-top: 1.5em;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.box button:disabled {
+    background-color: #12343b;
+    color: #fff;
+    border: 2px solid #12343b;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.box button {
+    background-color: #12343b;
+    color: #fff;
+    border: 2px solid #12343b;
+}
+
+.box a {
+    background-color: #12343b;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0.18em solid #12343b;
+    padding-left: 35%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #cccccc58;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
