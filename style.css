@@ -68,7 +68,7 @@ select {
     background-image: url(arrow.png);
     background-repeat: no-repeat;
     background-size: 1.2em;
-    background-position: 90% center; /* Adjust the background-position as needed */
+    background-position: 90% center; 
     outline: none;
     border-radius: 0.3em;
 }
